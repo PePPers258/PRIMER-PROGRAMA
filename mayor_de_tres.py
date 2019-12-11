@@ -1,4 +1,4 @@
-primer_numero  = int(input("primer número:  "))
+primer_numero  = int(input("primer nú139mero:  "))
 segundo_numero = int(input("segundo número:  "))
 tercer_nuemro = int(input("tercer número  "))
 

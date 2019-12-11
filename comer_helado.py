@@ -9,6 +9,6 @@ local_nieves = local_nieves_input == "Si"
 tu_mama_paga = tu_mama_paga_input == "Si"
 
 if apetece_helado and tienes_dinero and local_nieves:
-    print("Que disfrutes tu nieve")
+    print("Que disfrutes tu nieve.")
 else:
-    print("Que mala suerte, sera para la próxima")
+    print("Que mala suerte, sera para la próxima.")
