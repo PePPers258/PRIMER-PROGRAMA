@@ -1,4 +1,5 @@
-
+nombre_pokemon = 0
+ataque_pokemon = 0
 pokemon_elegido = input("¿Contra quien quieres luchar? (Charmander / Bulbasaur / Squirtle):  ")
 
 vida_pikachu = 100
@@ -22,9 +23,9 @@ while vida_pikachu > 0 and vida_enemigo > 0:
     ataque_elegido = input("¿Qué ataque vamos a usar? (Chispazo / Bola voltio):  ")
 
     if ataque_elegido == "Chispazo":
-        vida_enemigo -=10
+        vida_enemigo -= 10
     elif ataque_elegido == "Bola voltio":
-        vida_enemigo -=12
+        vida_enemigo -= 12
 
     print("La vida de tu enemigo ahora es de {}".format(vida_enemigo))
 
